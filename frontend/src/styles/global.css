@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body {
+  @apply min-h-screen bg-gray-100 text-gray-800 antialiased h-full;
+}
+
+#root {
+  @apply h-full;
+}
